@@ -1,0 +1,36 @@
+# app dep files
+*_Store
+package*.json
+yarn.lock
+node_modules
+/dist
+*.orig
+.cache
+src/.temp/*
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+*.log*
+*.diff*
+
+# db
+db.json
+
+# Editor directories and files
+.idea
+*.vim
+*.pdf
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+.zsh*
+vue.yaml
+
+# audio
+*.mp3
+*.mp4
